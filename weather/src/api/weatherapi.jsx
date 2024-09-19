@@ -39,7 +39,7 @@ export class Weather extends Component {
 
   render() {
     const { data } = this.state;
-    const { name, main } = data || {}; // Use default empty object if data is null
+    const { name, main } = data || {}; 
   
     return (
       <>
